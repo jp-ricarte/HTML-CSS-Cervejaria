@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #9F0B1B;
+}
+
+input#email{
+    padding: 5px 11px;
+    margin:8px;
+    border:none;
+    border-radius: 5px;
+}
+button.button-email{
+    background-color: #9F0B1B;
+    color:white;
+    border:none;
+    font-size: 12px;
+    font-family: "Oswald", sans-serif;
+    padding: 3px 30px;
+    cursor: pointer;
+    margin: -10px;
+    letter-spacing: 3px;
+}
+
+.amarelo{
+    background-color: #F5B212; 
+    height: 50px;
+}
+
+h3.title-newsletter{
+    float: left;
+    margin: 8px;
+    font-family: sans-serif; 
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    background-color:#F5B212;
+    font-family: "Satisfy", cursive;
+    font-weight: lighter;
+    font-size: 20px;
+}
+@media only screen and (max-width: 580px){
+    .amarelo{
+        height:78px;
+    }
+
+}
+
+.logo{
+    
+    background-color: #9F0B1B
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    background-color: #9F0B1B;
+    margin-top: -70px;
+    margin-bottom: 8px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 13px;   
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 880px){
+    ul{
+        float: left;
+        list-style-type: none;
+        background-color: #9F0B1B;
+        margin-top: 0px;
+    }
+
+}
+.home{
+     width: 100%;
+     background-color: #9F0B1B;
+  
+}
+
+.vermelho{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+img.cerva{
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.dentro-qs{
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    color:white;
+}
+h3.escrita{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: -235px;
+   
+}
+@media only screen and (max-width: 651px){
+    h3.escrita{
+        font-size: 23px;
+        font-weight: 100;
+        margin-top: -140px;
+        }
+    }
+
+h1.escrita{
+    font-size: 39px;
+    font-weight: 900;
+}    
+button.button-qs{
+    background-color: #9F0B1B;
+    color:white;
+    border:none;
+    font-size: 7px;
+    padding: 10px 20px ;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    
+}
+
+.novidades{
+    text-align: center;
+}
+h1.escrita{
+    font-size: 39px;
+    font-weight: 900;
+}
+button.button-qs{
+    background-color: #9F0B1B;
+    color:white;
+    border:none;
+    font-size: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    
+}
+@media only screen and (max-width: 382px){
+
+    h3.escrita{
+        font-size: 22px;
+        font-weight: 100;
+        margin-top: -117px;
+       
+    }
+    h1.escrita{
+        font-size: 24px;
+    } 
+    button.button-qs{
+        padding: 7px 15px;
+    }
+     }
+img.cerva2{
+    margin: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+h1.novidade{
+    text-align: center;
+    margin-top: -100px;
+    font-family: "Pacifico", cursive;
+    font-size: 39px;
+}
+button.button-novidades{
+    background-color: #9F0B1B;
+    color:white;
+    border:none;
+    font-size: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    
+    
+}
+.cerva3{
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.busca{
+    text-align: center;
+    margin-top: -100px;
+    font-family: "Pacifico", cursive;
+    font-size: 39px;
+
+}
+.texto-busca{
+    text-align: center;
+    font-family: 'Tangerine';
+    font-size: 38px;
+}
+.row{
+    display: flex;
+
+}
+
+img.beer{
+    margin: 50px 50px 0px 164px;
+    
+}
+.beer {
+    flex: 50%;
+    max-width: 50%;
+  }
+h5.pilsner{
+    padding-left: 230px;
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 1293px){
+    img.beer{
+        margin: 50px 10px 0px 70px;
+}
+    h5.pilsner{
+        padding:0px 0px 0px 108px;
+        font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+  
+    h5.pilsner{
+        padding:0px 0px 0px 92px;
+        font-size: 10px;
+    }
+  }
+  button.button-busca{
+    background-color: #9F0B1B;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 30px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+  }
+  @media only screen and (max-width: 582px){
+    button.button-busca{
+        background-color: #9F0B1B;
+        color: white;
+        border: none;
+        font-size: 12px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin: 60px 10px 0px 33%;
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 3px;
+      }
+  
+}
+img.contacts{
+     margin:18px 18px 18px 40px;;
+
+}
+@media only screen and (max-width: 651px){
+    img.beer{
+        margin: 50px 10px 0px 30px;
+        
+    }
+        h5.pilsner{
+            padding:0px 0px 0px 42px;
+            font-size: 10px;
+        }
+}
+
+iframe.map{
+    height: 600px;
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: block;
+    
+}
+
+@media only screen and (max-width: 1000px){
+    iframe.map{
+        width: 100%;
+    }
+}
+
+div.img{
+    float: left;
+}
+img.contacts{
+    width: 485px;
+    height: 326px;
+}
+
+.container{
+    float: left;
+    max-width: 370px;
+    margin-left: 60px;
+}
+h2.contacts{
+    margin: 20px 0px 8px 20px;
+    font-family: "Satisfy", cursive;
+    font-weight: lighter;
+    font-size: 30px;
+}
+p.sub-con{
+    margin-left: 15px;
+    font-family: 'Tangerine', cursive;
+    font-size: 38px;
+    letter-spacing: -1px;
+    color: gray;
+}
+div.contact{
+    margin-left: 18%;
+}
+
+
+@media only screen and (max-width: 666px){
+    div.contact{
+        margin: 8px 8px 8px 8px;
+    }
+   img.contacts{ 
+    width: 363px;
+    height: 206px;
+   }
+   
+}
+
+
+.preencha{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 40px;
+    
+}
+#text{
+    width: 100%;
+    height:23px;
+    border: none;
+    background-color: #F8F5ED;
+    padding: 20px;
+    margin: 10px; 
+    font-size: 12px;
+    
+}
+@media only screen and (max-width: 1203px){
+    .container{
+        float: left;
+        max-width: 370px;
+        margin-left: 20px;
+    }
+
+
+}
+@media only screen and (max-width: 436px){
+    div.contact{
+        margin: 8px 8px 8px 8px;
+    }
+   img.contacts{ 
+    width: 270px;
+    height: 146px;
+    margin-left: 18px; 
+   }        
+   .preencha{
+       width: 50%;
+   }
+ 
+}
+
+div.contact{
+    margin-top: 70px;
+}
+
+div.final-site{
+    float: left;
+    width: 100%;
+    height: 380px;
+    background-image: url(./footer_dark_bg.jpg);
+}
+div.logoetext{
+   float: left;
+   margin-left: 21%;
+   margin-top: 50px;
+  
+}
+i{
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  color: #9b8c85;
+  font-weight: 700;
+}
+.Contatos-final{
+    font-size: 24px;
+    color: white;
+    margin-top: 50px;
+
+}
+span.fa.fa-map-marker{
+    float: left;
+    margin-top: 20px;
+    color: yellow;
+}
+span.fa.fa-tablet{
+    
+    float: left;
+    margin-top: 20px;
+    color: yellow;
+}
+
+.p-final{
+    margin-top: 20px;
+    color: bisque;
+}
+div.acens{
+    width: 100%;
+    height: 89px;
+    background-color: #9F0B1B;
+}
+@media only screen and (max-width: 659px){
+    div.final-site{
+        height: 580px;
+    }
+    .acens{
+        margin-top: 185px;
+    }
+
+}
+h3.acens-text{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+ 
+}
